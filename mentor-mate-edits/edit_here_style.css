@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(https://fonts.google.com/specimen/Poppins#standard-styles);
+ }
+ 
+ @font-face {
+    font-family: Poppins;
+    src: url(https://fonts.google.com/specimen/Poppins#standard-styles);
+    font-weight: regular;
+ }
+
+body{
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.maman{
+    padding: 20px;
+    font-size: 20px;
+    height: fit-content;
+    border: #00cde1 solid 3px;
+}
+
+#created_at{
+    font-size: 15px;
+}
+
+#heading_style{
+    /*border: black 1px solid;*/
+    font-size: 25px;
+    width: 100%;
+}
+
+#answer_button{
+    height: 35px;
+    background-color: white;
+    color: black;
+    border: solid #00ced1 2px;
+}
+
+#float_right{
+    float: right;
+    right: 0;
+    left: auto;
+    color: black;
+}

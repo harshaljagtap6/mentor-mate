@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Poppins;
+    src: url(https://fonts.google.com/specimen/Poppins#standard-styles);
+ }
+ 
+ @font-face {
+    font-family: Poppins;
+    src: url(https://fonts.google.com/specimen/Poppins#standard-styles);
+    font-weight: regular;
+ }
+
+body{
+    font-family: Poppins;
+}
+
+.container{
+    background-color: white;
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: #00CED1;
+    border-style: solid;
+    margin-top: 150px;   
+    width: 450px;
+    height: 700px;
+}
+
+h2{
+    font-weight: bolder;
+    color: #00CED1;
+    align-items: center;
+    text-align: center;
+}
+
+#button_1{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 15px;
+    margin-left: 80px;
+    width: 120px;
+    align-items: center;
+    text-align: center;
+}
+
+#button_2{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 15px;
+    margin-left: 10px;
+    width: 120px;
+    align-items: center;
+    text-align: center;
+}
+
+.form-control{
+    color: white;
+    margin-left: 85px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #454545;
+    width: 243px;
+}
+
+p{
+    align-items: center;
+    text-align: center;
+}

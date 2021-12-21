@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Poppins;
+    src: url(https://fonts.google.com/specimen/Poppins#standard-styles);
+    font-weight: regular;
+ }
+
+body{
+    font-family: Poppins;
+}
+
+p{
+    float: left;
+    font-size: 20px;
+}
+
+.responsive{
+    display: none;
+}
+
+.float_right{
+    float: right;
+}
+
+#navigation_bar{
+    padding: 10px;
+    font-size: 14px;
+}
+
+#nav-r-btn{
+    display: solid;
+}
+
+#hamburger{
+    display: none;
+}
+
+.float_left{
+    float: left;
+}
+
+#button_right{
+    height: 35px;
+    background-color: white;
+    color: #00ced1;
+    border: solid #00ced1 2px; 
+}
+
+.holder{
+    position: absolute;
+    color: black;
+    background-color: #00cde1;
+}
+
+.maman{
+    padding: 20px;
+    font-size: 20px;
+    height: fit-content;
+    border: #00cde1 solid 3px;
+}
+
+#created_at{
+    font-size: 15px;
+}
+
+#heading_style{
+    /*border: black 1px solid;*/
+    font-size: 25px;
+    width: 100%;
+}
+
+@media (max-width:1250px){
+
+    #hamburger{
+        display: solid;
+    }
+
+    .default{
+        display: none;
+    }
+
+    .responsive{
+        color: white;
+        display: solid;
+    }
+
+    #navigation_bar{
+        padding: 10px;
+        font-size: 20px;
+    }
+
+}
+
